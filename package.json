@@ -1,0 +1,24 @@
+{
+  "name": "task-manager-api",
+  "version": "1.0.0",
+  "description": "Backend simples de uma aplicação de gerenciamento de tarefas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beatriiss/task-manager-api.git"
+  },
+  "keywords": [
+    "task",
+    "node",
+    "api"
+  ],
+  "author": "Isis Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beatriiss/task-manager-api/issues"
+  },
+  "homepage": "https://github.com/beatriiss/task-manager-api#readme"
+}
