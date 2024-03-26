@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/beatriiss/task-manager-api/issues"
   },
-  "homepage": "https://github.com/beatriiss/task-manager-api#readme"
+  "homepage": "https://github.com/beatriiss/task-manager-api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.2"
+  }
 }
