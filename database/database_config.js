@@ -7,7 +7,7 @@ const mysql = require("mysql2")
 const db = mysql.createPool({
    host: "localhost", //endereço do seu host, tipo onde ele mora mesmo
    user: "root", // seu usuario
-   password: "@2368921", // sua senha
+   password: "", // sua senha
    database: "task_manager_api" // nome do seu banco de dados
 })
 
