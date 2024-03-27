@@ -1,1 +1,11 @@
-npm i express mysql dotenv 
+A primeira coisa a fazer se quiser clonar esse repositório, 
+é rodar o seguinte comando "npm install" ele vai instalar as 
+dependências necessárias para executar o projeto.
+
+Con as dependencias instaladas o proximo passo é garantir que seu 
+banco de dados esteja funcionando e configurado devidamente no na pasta
+database, la tem o script do banco, e o arquivo de configuração.
+
+Com essas duas coisas prontas, é só rodar o comando 
+"nodemon server.js" que roda o arquivo principal do nosso servidor
+e ele vai esta pronto pra uso.

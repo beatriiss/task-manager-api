@@ -11,7 +11,7 @@ router.post("/cadastro", (req, res) => {
     const { username, email, password } = req.body;
 
     // insere o novo usuário no banco 
-    db.query(
+    db.query( 
         "INSERT INTO user (username, email, password) VALUES (?, ?, ?)",
         [username, email, password],
         (err, result) => {
@@ -40,7 +40,7 @@ router.post("/login", (req, res) => {
             } else if (results.length === 0) {
                 res.status(401).json({ message: "usuário não encontrado" });
             } else {
-                // retorna o usuário encontrado
+                console.log("Usuário encontrado")
                 const user = results[0]; 
                 res.status(200).json({ message: "login realizado", user });
             }
