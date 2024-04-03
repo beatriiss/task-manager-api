@@ -6,6 +6,7 @@ const cors = require("cors");
 
 //importa as rotas da pasta routes
 const user_routes = require("./routes/user")
+const task_routes = require("./routes/tasks")
 
 const corsOptions = {
     origin: 'http://localhost:3000',
@@ -24,6 +25,7 @@ app.get("/", (req, res) => {
 
 // possibilita o app usar as rotas do usuário
 app.use("/user", user_routes);
+app.use("/tasks", task_routes);
 
 //configura a porta em que o servidor esta rodando
 const PORT = process.env.PORT || 3333;
